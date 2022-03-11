@@ -5,6 +5,7 @@
  *
  * Return: Always 0(Success)
  */
+
 int main(void)
 {
 	int tens, ones;
@@ -14,7 +15,6 @@ int main(void)
 		{
 			putchar(tens + '0');
 			putchar(ones + '0');
-			
 			if (tens < 8)
 			{
 				putchar(',');
