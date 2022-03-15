@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _islower - checks if a charcter is lower or not
+ * @c: the charcter to be checked
  *
  * Return: 1 if true, 0 otherwise.
  */
