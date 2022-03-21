@@ -1,17 +1,14 @@
 #include "main.h"
-#include <unistd.h>
 /**
  * _puts - prints a string to stdout
  * @str: string
  */
 void _puts(char *str)
 {
-	int i = 0;
-
-	while (*(str + 1) != '\0')
+	while (*str != '\0')
 	{
-		_putchar(str[i]);
-		i++;
+		_putchar(*str);
+		str++;
 	}
 
 	_putchar('\n');
