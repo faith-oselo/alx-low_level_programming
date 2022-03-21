@@ -8,7 +8,7 @@ void print_array(int *a, int n)
 {
 	int x;
 
-	while (n-- > 0)
+	while (n-- >= 0)
 	{
 		printf("%d", a[x++]);
 		if (n != 0)
