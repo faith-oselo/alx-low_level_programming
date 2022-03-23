@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * cap_string - captitalize all words of a string
+ * *cap_string - captitalize all words of a string
  * @n: input
  *
  * Return: Capitalized string
@@ -13,7 +13,9 @@ char *cap_string(char *n)
 	i = 0;
 
 	if (n[0] >= 'a' && n[0] <= 'z')
-		n[0] = n[0] -32;
+	{
+		n[0] = n[0] - 32;
+	}
 
 	for (i = 0; n[i] != '\0'; i++)
 	{
