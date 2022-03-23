@@ -2,27 +2,25 @@
 
 /**
  * leet - encode a string 1337.
- * @str: the string to be encoded
+ * @n: the string to be encoded
  *
  * Return: a pointer to the encoded string
  */
-char *leet(char *str)
+char *leet(char *n)
 {
 	int i, j;
-	char leet[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
+	char s1[] = "aAeEoOtTlL";
+	char s2[] = "4433007711";
 
-	i = 0;
-
-	while (string[i])
+	for (i = 0; n[i] != '\0'; i++)
 	{
-		for (j = 0; j <= 7; j++)
+		for (j = 0; j < 10; j++)
 		{
-			if (str[i] == leet[j] || str[i] - 32 == leet[j])
+			if (n[i] == s1[j])
 			{
-				str[i] = j + '0';
+				n[i] = s2[j];
 			}
 		}
-
-		i++;
 	}
+	return (n);
 }
