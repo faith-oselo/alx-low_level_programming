@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stddef.h>
+
 /**
  * _strpbrk - searches a string for any os a set of bytes
  * @s: a string
@@ -16,7 +17,9 @@ char *_strpbrk(char *s, char *accept)
 		for (i = 0; accept[i]; i++)
 		{
 			if (*s == accept[i])
+			{
 				return (s);
+			}
 		}
 
 		s++;
