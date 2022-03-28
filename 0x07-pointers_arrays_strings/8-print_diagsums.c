@@ -3,13 +3,16 @@
 
 /**
  * print_diagsums - prints the sum of a matrix.
- * @a: 2D matrix
+ * @a: matrix of integers
  * @size: size of a matrix
  */
 void print_diagsums(int *a, int size)
 {
 	int i;
-	int sum1 = 0, sum2 = 0;
+	int sum1, sum2;
+
+	sum1 = 0;
+	sum2 = 0;
 
 	for (i = 0; i < size; i++)
 	{
