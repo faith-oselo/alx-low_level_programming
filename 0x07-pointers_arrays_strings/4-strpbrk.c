@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * _strpbrk - searches a string for any os a set of bytes
  * @s: a string
@@ -8,17 +8,18 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
-	unsigned int i;
-	unsigned int j;
+	int i;
 
-	for (i = 0; s[i] != '\0'; i++)
+	while (*s)
 	{
-		for (j = 0; accept[j] != '\0'; j++)
+		for (i = 0; accept[i]; i++)
 		{
-			if (s[i] == accept[j])
-				return (&s[i]);
+			if (*s == accept[i])
+				return (s);
 		}
+
+		s++;
 	}
 
-	return (NULL);
+	return ('\0');
 }
