@@ -73,7 +73,7 @@ char *postfix_match(char *str, char *postfix)
  *
  * Return: if the strings are identical 1, else 0.
  */
-int wildcmp(char *s1, chr *s2)
+int wildcmp(char *s1, char *s2)
 {
 	if (*s2 == '*')
 	{
