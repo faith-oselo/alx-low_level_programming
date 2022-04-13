@@ -1,10 +1,6 @@
 #ifndef HEADERGUARD
 #define HEADERGUARD
 
-/**
- * Desc: Header file containing all structures and
- *       prototypes used by the 3-main.c program.
- */
 typedef struct op
 {
 	char *op;
