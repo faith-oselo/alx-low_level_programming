@@ -1,5 +1,5 @@
-#ifndef CALC_H
-#define CALC_H
+#ifndef HEADERGUARD
+#define HEADERGUARD
 
 /**
  * Desc: Header file containing all structures and
