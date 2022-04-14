@@ -1,5 +1,5 @@
-#ifndef VARIADIC_FUNCTIONS_H
-#define VARIADIC_FUNCTIONS_H
+#ifndef HEADERGUARD
+#define HEADERGUARD
 
 /**
  * Desc: Header file containing prototypes for all functions
