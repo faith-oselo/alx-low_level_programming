@@ -1,10 +1,5 @@
-#ifndef HEADERGUARD
-#define HEADERGUARD
-
-/**
- * Desc: Header file containing prototypes for all functions
- *       used in the 0x10-variadic_functions directory.
- */
+#ifndef VARIADIC_FUNCTIONS_H
+#define VARIADIC_FUNCTIONS_H
 
 #include <stdarg.h>
 
